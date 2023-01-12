@@ -1,0 +1,12 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 984px;
+    height: 1005px;
+    margin-top: 56px;
+    padding: 0;
+    margin-left: 148px;
+    margin-right: 148px;
+    outline: red solid 2px;
+}

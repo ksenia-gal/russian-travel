@@ -1,0 +1,12 @@
+.header {
+    width: 1184px;
+    height: 52px;
+    margin-top: 28px;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    outline: 2px solid red;
+}
