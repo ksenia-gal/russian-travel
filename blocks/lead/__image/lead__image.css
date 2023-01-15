@@ -1,6 +1,8 @@
 .lead__image {
     width: 984px;
     height: 615px;
+    margin: 0;
+    margin-top: 64px;
     margin-left: 148px;
     margin-right: 148px;
     outline: red solid 2px;

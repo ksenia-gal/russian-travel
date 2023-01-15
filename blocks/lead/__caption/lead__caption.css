@@ -1,17 +1,17 @@
 .lead__caption {
     width: 158px;
     height: 14px;
-    margin-left: 148px;
+    margin: 0;
+    margin-top: 8px;
     font-family: 'Inter';
     font-size: 10px;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 140%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
     display: flex;
-    flex-wrap: nowrap;
+    white-space: nowrap;
     align-self: start;
-    left: 0;
     outline: red solid 2px;
 }
