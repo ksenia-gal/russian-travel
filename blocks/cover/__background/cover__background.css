@@ -1,0 +1,13 @@
+.cover__background {
+    width: 1184px;
+    height: 740px;
+    background-size: contain;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-left: 48px;
+    margin-right: 48px;
+    outline: 2px red solid;
+}
