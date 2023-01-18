@@ -5,8 +5,11 @@
     margin-top: 92px;
     margin-left: 48px;
     margin-right: 48px;
+    margin-bottom: 24px;
     outline: 2px solid red;
     display: flex;
     flex-direction: row;
     gap: 18px;
+    display: flex;
+    flex-direction: row;
 }

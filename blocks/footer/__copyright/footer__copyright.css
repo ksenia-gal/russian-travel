@@ -1,5 +1,4 @@
 .footer__copyright {
-    width: 50px;
     height: 18px;
     font-family: 'Inter';
     font-size: 16px;
@@ -7,4 +6,7 @@
     line-height: 18px;
     color: #FFFFFF;
     outline: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-self: row-reverse;
 }

@@ -9,6 +9,6 @@
     font-weight: 700;
     line-height: 150%;
     color: #FFFFFF;
-    list-style: none;
+    list-style-type: none;
     outline: 2px solid red;
 }
