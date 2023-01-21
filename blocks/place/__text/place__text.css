@@ -1,0 +1,8 @@
+.place__text {
+    grid-area: text;
+    margin: 0;
+    margin-top: 48px;
+    width: 484px;
+    grid-auto-flow: column;
+    gap: 20px;
+}

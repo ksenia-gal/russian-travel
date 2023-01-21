@@ -12,3 +12,7 @@
     color: #FFFFFF;
     outline: 2px solid red;
 }
+
+.place__link:hover {
+    opacity: 0.8;
+  }

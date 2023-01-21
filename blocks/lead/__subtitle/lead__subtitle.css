@@ -1,6 +1,7 @@
 .lead__subtitle {
     min-width: 640px;
     height: 72px;
+    margin: 0;
     margin-top: 32px;
     margin-left: 320px;
     margin-right: 320px;
