@@ -4,8 +4,8 @@
     grid-template-areas:
     "title website"
     "image text";
-    column-gap: 40px;
     grid-template-columns: 460px 1fr;
+    column-gap: 40px;
     margin: 0;
     padding: 0;
     margin-bottom: 80px;
