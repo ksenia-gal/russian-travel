@@ -2,7 +2,8 @@
     grid-area: text;
     margin: 0;
     margin-top: 48px;
-    width: 484px;
-    grid-auto-flow: column;
-    gap: 20px;
+    outline: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
 }

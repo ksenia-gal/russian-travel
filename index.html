@@ -48,13 +48,15 @@
           />
         </svg>
       </div>
-      <nav class="header__lang-links">
+      <nav>
+        <ul class="header__lang-links">
         <li>
           <a href="#" class="header__lang-link" target="_blank">Ru</a>
         </li>
         <li>
           <a href="#" class="header__lang-link" target="_blank">En</a>
         </li>
+      </ul>
       </nav>
     </header>
     <main class="content">
@@ -63,7 +65,7 @@
       <h2 class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а здесь.
       </h2>
-      <img src="./images/lead-polka.jpg" alt="Полка" class="lead__image" />
+      <img src="./images/lead-polka.jpg" alt="Полка" class="lead__image">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
     <section class="intro">
@@ -80,11 +82,11 @@
         некоторые интересные места, достойные вашего отпуска.
       </p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class ="intro__number">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class ="intro__number">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class ="intro__number">16</span></li>
+        <li>Природных заповедников <span class ="intro__number">105</span></li>
+        <li>Аэропортов <span class ="intro__number">241</span></li>
       </ul>
     </section>
     <section class="photo-grid">
@@ -205,7 +207,7 @@
           target="_blank"
           >National Geographic</a
         >
-        <p class="text">
+        <div class="place__text">
         <p class="place__paragraph">
           Почти весь полуостров находится за Полярным кругом. Саамская тундра,
           от которой на юг — тайга, а на север — Ледовитый океан,
@@ -219,7 +221,7 @@
           апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное
           сияние начинает сбываться с билетом в Мурманск.
         </p>
-        </p>
+        </div>
       </article>
       <article class="place">
         <h2 class="place__title">Алтай</h2>
@@ -237,7 +239,7 @@
           target="_blank"
           >Facebook</a
         >
-        <p class="text">
+        <div class="place__text">
         <p class="place__paragraph">
           Алтай — одно из красивейших мест в России. В первую очередь из-за гор:
           если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные
@@ -250,7 +252,7 @@
           бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И
           знаменитые манулы — тоже обитатели Алтайского края.
         </p>
-      </p>
+      </div>
       </article>
       <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
@@ -264,7 +266,7 @@
         <a href="https://vk.com/baikalmile" class="place__link" target="_blank"
           >https://vk.com/baikalmile</a
         >
-        <p class="text">
+        <div class="place__text">
         <p class="place__paragraph">
           Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
           что это самый большой источник пресной воды и одно из красивейших мест
@@ -276,7 +278,7 @@
           мотоциклу, и тандем старается развить как можно бóльшую скорость на
           льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен
           мировой рекорд — 197.011 км/ч.
-        </p></p>
+        </p></div>
       </article>
       <article class="place">
         <h2 class="place__title">Карелия</h2>
@@ -290,7 +292,7 @@
         <a href="http://vodlozero.ru" class="place__link" target="_blank"
           >http://vodlozero.ru/</a
         >
-        <p class="text">
+        <div class="place__text">
         <p class="place__paragraph">
           Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
           сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -301,7 +303,7 @@
           сотню километров не встретишь тропы. А на редких тропинках деревья в
           паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто
           тут хозяин.
-        </p></p>
+        </p></div>
       </article>
     </section>
 
@@ -321,8 +323,7 @@
       <div class="cover__overlay"></div>
       <div class="cover__background"></div>
     </section>
-  </body>
-  <main class="content"> 
+</main class="content"> 
   <footer class="footer">
     <nav>
       <ul class="footer__links">
@@ -336,4 +337,5 @@
     </nav>
     <p class="footer__copyright">&copy; 2023. Ксения Галкина</p>
   </footer>
+</body>
 </html>

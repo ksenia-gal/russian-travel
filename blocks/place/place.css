@@ -1,16 +1,14 @@
 .place {
+    max-width: 984px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "title website"
     "image text";
     column-gap: 40px;
-    max-width: 984px;
-    width: calc(100% - 296px);
-    height: 660px;
-    margin: auto;
+    grid-template-columns: 460px 1fr;
+    margin: 0;
     padding: 0;
-    margin-top: 92px;
     margin-bottom: 80px;
+    margin-left: 148px;
     outline: 2px solid red;
 }
