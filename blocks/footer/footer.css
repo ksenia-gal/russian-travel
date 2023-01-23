@@ -9,7 +9,6 @@
     outline: 2px solid red;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 18px;
-    display: flex;
-    flex-direction: row;
 }

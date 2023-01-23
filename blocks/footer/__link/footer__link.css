@@ -1,12 +1,15 @@
 .footer__link {
-    width: 50px;
-    height: 18px; 
+    max-width: 50px;
+    max-height: 18px; 
     margin: 0;
+    padding: 0;
     font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 93%;
     color: #FFFFFF;
     outline: 2px solid red;
     text-decoration: none;
+    text-align: left;
+    vertical-align: top;
 }

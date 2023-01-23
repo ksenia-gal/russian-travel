@@ -1,9 +1,6 @@
 .cover__overlay {
-    width: 1148px;
-    height: 740px;
-    margin: 0;
-    margin-left: 48px;
-    margin-right: 48px;
+    max-width: 1148px;
+    margin: 0 auto;
     opacity: 0.3;
     outline: 2px red solid;
 }

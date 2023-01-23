@@ -1,6 +1,5 @@
 .cover__background {
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
     background-size: contain;
     z-index: -1;
     position: absolute;
