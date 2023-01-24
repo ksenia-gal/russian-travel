@@ -13,3 +13,10 @@
     text-align: left;
     vertical-align: top;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__link {
+        max-width: 57px;
+        line-height: 112%;
+    }
+} 

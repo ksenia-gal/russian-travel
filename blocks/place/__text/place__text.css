@@ -7,3 +7,10 @@
     flex-direction: column;
     gap: 26px;
 }
+
+@media screen and (max-width: 768px) {
+    .place__text {
+        gap: 25px;
+        outline: 2px solid red;
+    }
+} 

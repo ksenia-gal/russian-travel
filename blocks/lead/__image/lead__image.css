@@ -18,3 +18,12 @@
         outline: 2px solid red;
     }
 } 
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 768px;
+        height: 480px;
+        margin-top: 56px 0 0;
+        outline: 2px solid red;
+    }
+} 

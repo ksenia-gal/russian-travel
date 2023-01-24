@@ -8,3 +8,10 @@
     color: #FFFFFF;
     outline: 2px solid red;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        width: 720px;
+        outline: 2px solid red;
+    }
+} 

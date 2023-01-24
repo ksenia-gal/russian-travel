@@ -33,6 +33,16 @@
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
+        min-height: 640px;
+        outline: 2px solid red;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        min-height: 480px;
+        margin-top: 90px;
         outline: 2px solid red;
     }
 } 

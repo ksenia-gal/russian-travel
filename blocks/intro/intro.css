@@ -17,3 +17,12 @@
         outline: 2px solid red;
     }
 } 
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 720px;
+        margin-top: 88px;
+        margin-left: 24px;
+        outline: 2px solid red;
+    }
+} 

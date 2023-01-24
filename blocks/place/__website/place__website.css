@@ -1,5 +1,4 @@
 .place__website {
     grid-area: website;
     align-self: end;
-    gap: 12px;
 }
