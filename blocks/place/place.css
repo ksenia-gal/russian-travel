@@ -12,3 +12,14 @@
     margin-left: 148px;
     outline: 2px solid red;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+        margin-left: 48px;
+        margin-right: 48px;
+        grid-template-columns: 440px 1fr;
+        column-gap: 32px;
+        outline: 2px solid red;
+    }
+} 
