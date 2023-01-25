@@ -1,12 +1,18 @@
 .header__lang-links {
-    margin: 0;
-    padding: 0;
-    padding-top: 18px;
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    list-style: none;
-    justify-items: center;
-    align-items: center;
-    outline: 2px solid red;
+  margin: 0;
+  padding: 0;
+  padding-top: 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  list-style: none;
+  justify-items: center;
+  align-items: center;
+  outline: 2px solid red;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    padding-top: 14px;
+  }
 }

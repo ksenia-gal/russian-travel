@@ -1,5 +1,4 @@
 .cover__subtitle {
-    position: relative;
     max-width: 360px;
     margin: 0 auto;
     text-align: center;
@@ -8,5 +7,6 @@
     font-weight: 400;
     line-height: 122%;
     color: #FFFFFF;
+    position: relative;
     outline: 2px red solid;
 }

@@ -1,38 +1,41 @@
 .cover {
-    background-image: url("../../images/cover-trains.jpg");
+    background: url("../../images/cover-trains.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
     padding: 0;
     margin-top: 92px;
     position: relative;
-    background-position: center;
-    outline: 2px red solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    outline: 2px red solid;
+    
 }
 
 .cover::before {
     content: "";
     position: absolute;
+    background: #2A2C2F;
     width: 100%;
     height: 100%;
     top: 0;
     bottom: 0;
     left: 0;
-    background: #2A2C2F;
-    z-index: -1;
+    opacity: .3;    
 }
 
-.cover :hover {
+.cover:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        max-width: 1024px;
+        max-width: 100%;
         min-height: 640px;
         outline: 2px solid red;
     }
@@ -40,7 +43,7 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        max-width: 768px;
+        width: 100%;
         min-height: 480px;
         margin-top: 90px;
         outline: 2px solid red;
