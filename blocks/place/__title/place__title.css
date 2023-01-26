@@ -19,3 +19,14 @@
         outline: 2px solid red;
     }
 } 
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 109%;
+        margin-left: 16px;
+        margin-right: 16px;
+        outline: 2px solid red;
+    }
+} 

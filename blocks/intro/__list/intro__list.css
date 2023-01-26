@@ -19,3 +19,10 @@
         outline: 2px solid red;
     }
 } 
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        width: 288px;
+        outline: 2px solid red;
+    }
+} 

@@ -11,3 +11,10 @@
         outline: 2px solid red;
     }
 } 
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin-top: 64px;
+        outline: 2px solid red;
+    }
+} 

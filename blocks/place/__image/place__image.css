@@ -6,3 +6,11 @@
     margin-top: 48px;
     outline: 2px solid red;
 }
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        margin: 0;
+        width: 320px;
+        outline: 2px solid red;
+    }
+} 

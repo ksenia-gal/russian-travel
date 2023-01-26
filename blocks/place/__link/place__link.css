@@ -14,9 +14,10 @@
     opacity: 0.8;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 320px) {
     .place__link {
-        line-height: 101%;
+        margin-left: 16px;
+        margin-right: 16px;
         outline: 2px solid red;
     }
 } 

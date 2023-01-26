@@ -1,16 +1,26 @@
 .place__text {
-    grid-area: text;
-    margin: 0;
-    margin-top: 48px;
-    outline: 2px red solid;
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
+  grid-area: text;
+  margin: 0;
+  margin-top: 48px;
+  outline: 2px red solid;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__text {
-        gap: 25px;
-        outline: 2px solid red;
-    }
-} 
+  .place__text {
+    gap: 25px;
+    outline: 2px solid red;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    gap: 25px;
+    outline: 2px solid red;
+  }
+}
