@@ -16,6 +16,7 @@
 
   @media screen and (max-width: 320px) {
     .place__link {
+        max-width: 228px;
         margin-left: 16px;
         margin-right: 16px;
         outline: 2px solid red;

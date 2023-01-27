@@ -6,13 +6,14 @@
   flex-direction: row;
   gap: 18px;
   list-style: none;
-  justify-items: center;
-  align-items: center;
+  justify-items: right;
+  vertical-align: top;
   outline: 2px solid red;
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-links {
-    padding-top: 14px;
+    padding-top: 16px;
+    padding-bottom: 8px;
   }
 }

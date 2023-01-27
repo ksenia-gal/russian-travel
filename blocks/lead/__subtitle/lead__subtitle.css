@@ -11,6 +11,7 @@
         font-weight: 400;
         line-height: 120%;
         text-align: center;
+        vertical-align: top;
         color: #FFFFFF;
         outline: red solid 2px;
 }
@@ -35,9 +36,9 @@
         .lead__subtitle {
             margin: 16px 16px 0;
             font-size: 16px;
-            line-height: 125%;
+            line-height: 103%;
             max-width: 90%;
-            height: 40px;
+            max-height: 40px;
             outline: 2px solid red;
         }
     }

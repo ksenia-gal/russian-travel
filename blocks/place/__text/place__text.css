@@ -15,12 +15,14 @@
   }
 }
 
+
 @media screen and (max-width: 320px) {
   .place__text {
-    margin-top: 0;
+    max-width: 288px;
     margin-left: 16px;
     margin-right: 16px;
     gap: 25px;
+    margin-top: 0;
     outline: 2px solid red;
   }
 }
