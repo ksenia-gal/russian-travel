@@ -1,44 +1,40 @@
 .lead__subtitle {
-        width: 640px;
-        height: 72px;
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 320px;
-        margin-right: 320px;
-        font-family: 'Inter', Arial, sans-serif;
-        font-style: normal;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 120%;
-        text-align: center;
-        vertical-align: top;
-        color: #FFFFFF;
-        outline: red solid 2px;
+  width: 640px;
+  height: 72px;
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 320px;
+  margin-right: 320px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  vertical-align: top;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
-        .lead__subtitle {
-            margin-left: 192px;
-            margin-right: 192px;
-            outline: 2px solid red;
-        }
-    } 
+  .lead__subtitle {
+    margin-left: 192px;
+    margin-right: 192px;
+  }
+}
 
-    @media screen and (max-width: 768px) {
-        .lead__subtitle {
-            margin-left: 64px;
-            margin-right: 64px;
-            outline: 2px solid red;
-        }
-    }
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
 
-    @media screen and (max-width: 320px) {
-        .lead__subtitle {
-            margin: 16px 16px 0;
-            font-size: 16px;
-            line-height: 103%;
-            max-width: 90%;
-            max-height: 40px;
-            outline: 2px solid red;
-        }
-    }
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: 16px 16px 0;
+    font-size: 16px;
+    line-height: 103%;
+    max-width: 90%;
+    max-height: 40px;
+  }
+}

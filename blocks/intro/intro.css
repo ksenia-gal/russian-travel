@@ -1,35 +1,31 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 690px;
-    margin: 0;
-    margin-top: 92px;
-    margin-left: 148px;
-    padding: 0;
-    outline: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 690px;
+  margin: 0;
+  margin-top: 92px;
+  margin-left: 148px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-    .intro {
-        margin-left: 48px;
-        outline: 2px solid red;
-    }
-} 
+  .intro {
+    margin-left: 48px;
+  }
+}
 
 @media screen and (max-width: 768px) {
-    .intro {
-        width: 720px;
-        margin-top: 88px;
-        margin-left: 24px;
-        outline: 2px solid red;
-    }
-} 
+  .intro {
+    max-width: 720px;
+    margin-top: 88px;
+    margin-left: 24px;
+  }
+}
 
 @media screen and (max-width: 320px) {
-    .intro {
-        width: 288px;
-        margin: 64px 16px 0;
-        outline: 2px solid red;
-    }
-} 
+  .intro {
+    width: 288px;
+    margin: 64px 16px 0;
+  }
+}

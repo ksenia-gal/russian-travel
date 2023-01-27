@@ -10,7 +10,6 @@
   padding: 0;
   margin-bottom: 80px;
   margin-left: 148px;
-  outline: 2px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +19,6 @@
     margin-right: 48px;
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
-    outline: 2px solid red;
   }
 }
 
@@ -32,7 +30,6 @@
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
     margin-bottom: 71px;
-    outline: 2px solid red;
   }
 }
 
@@ -48,6 +45,5 @@
     margin: 0;
     margin-bottom: 50px;
     padding: 0;
-    outline: 2px solid red;
   }
 }

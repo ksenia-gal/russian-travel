@@ -9,7 +9,6 @@
   line-height: 106%;
   color: #ffffff;
   vertical-align: top;
-  outline: 2px solid red;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,7 +16,6 @@
     max-width: 330px;
     font-size: 42px;
     line-height: 110%;
-    outline: 2px solid red;
   }
 }
 
@@ -28,6 +26,5 @@
     line-height: 35px;
     margin-left: 16px;
     margin-right: 16px;
-    outline: 2px solid red;
   }
 }

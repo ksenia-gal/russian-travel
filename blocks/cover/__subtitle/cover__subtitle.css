@@ -8,7 +8,6 @@
   line-height: 122%;
   color: #ffffff;
   position: relative;
-  outline: 2px red solid;
 }
 
 @media screen and (max-width: 320px) {
@@ -16,6 +15,5 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
-    outline: 2px solid red;
   }
 }

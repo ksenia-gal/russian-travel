@@ -8,7 +8,6 @@
   list-style: none;
   justify-items: right;
   vertical-align: top;
-  outline: 2px solid red;
 }
 
 @media screen and (max-width: 320px) {

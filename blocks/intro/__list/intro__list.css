@@ -1,28 +1,25 @@
 .intro__list {
-    width: 690px;
-    height: 90px;
-    padding: 0;
-    margin: 0;
-    margin-top: 32px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 150%;
-    color: #FFFFFF;
-    list-style-type: none;
-    outline: 2px solid red;
+  width: 690px;
+  height: 90px;
+  padding: 0;
+  margin: 0;
+  margin-top: 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #ffffff;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__list {
-        width: 720px;
-        outline: 2px solid red;
-    }
-} 
+  .intro__list {
+    width: 720px;
+  }
+}
 
 @media screen and (max-width: 320px) {
-    .intro__list {
-        width: 288px;
-        outline: 2px solid red;
-    }
-} 
+  .intro__list {
+    width: 288px;
+  }
+}

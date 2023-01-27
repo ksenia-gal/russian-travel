@@ -1,25 +1,27 @@
 .intro__text {
-    width: 690px;
-    margin: 0;
-    margin-top: 40px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 163%;
-    color: #FFFFFF;
-    outline: 2px solid red;
+  width: 690px;
+  margin: 0;
+  margin-top: 40px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 163%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .intro__text {
-        width: 720px;
-        outline: 2px solid red;
-    }
-} 
+  .intro__text {
+    max-width: 720px;
+  }
+}
 
 @media screen and (max-width: 320px) {
-    .intro__text {
-        width: 288px;
-        outline: 2px solid red;
-    }
-} 
+  .intro__text {
+    width: 288px;
+  }
+}

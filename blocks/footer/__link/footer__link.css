@@ -1,21 +1,20 @@
 .footer__link {
-    max-height: 18px; 
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 93%;
-    color: #FFFFFF;
-    outline: 2px solid red;
-    text-decoration: none;
-    text-align: left;
-    vertical-align: top;
+  max-height: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 93%;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: left;
+  vertical-align: top;
 }
 
 @media screen and (max-width: 320px) {
-    .footer__link {
-        font-size: 24px;
-        line-height: 100%;
-    }
-} 
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}

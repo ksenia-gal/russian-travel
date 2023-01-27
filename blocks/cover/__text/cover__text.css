@@ -1,16 +1,15 @@
 .cover__text {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    align-items: center;
-    color: #FFFFFF;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
 }
 
 @media screen and (max-width: 320px) {
-    .cover__text {
-      gap: 16px;
-      align-items: center;
-      outline: 2px solid red;
-    }
+  .cover__text {
+    gap: 16px;
+    align-items: center;
   }
+}

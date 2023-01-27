@@ -5,7 +5,6 @@
   font-family: "Inter";
   display: flex;
   justify-content: space-between;
-  outline: 2px solid red;
 }
 
 @media screen and (max-width: 1024px) {
