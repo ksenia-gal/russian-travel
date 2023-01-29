@@ -5,6 +5,19 @@
   font-family: "Inter";
   display: flex;
   justify-content: space-between;
+  outline: 2px red solid;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    max-width: 956px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 90.6%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,9 +32,15 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: 92%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header {
-    max-width: 90%;
+    max-width: 92%;
     margin-top: 16px;
   }
 }

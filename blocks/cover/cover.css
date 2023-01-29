@@ -15,18 +15,48 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .cover {
+    max-width: 1080px;
+    min-height: 675px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    width: 100%;
     min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    width: 100%;
+    min-height: 580px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 768px;
+    width: 100%;
     min-height: 480px;
     margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 66px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cover {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 66px;
   }
 }
 

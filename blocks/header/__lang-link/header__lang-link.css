@@ -9,6 +9,7 @@
   padding: 0;
   text-align: right;
   color: #ffffff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
@@ -17,4 +18,7 @@
     font-size: 18px;
     line-height: 92%;
   }
+}
+.header__lang-link:hover {
+  opacity: 0.8;
 }

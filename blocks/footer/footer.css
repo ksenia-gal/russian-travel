@@ -5,6 +5,14 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 18px;
+  outline: 2px red solid;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    max-width: 956px;
+    margin: 92px auto 24px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,9 +28,19 @@
   }
 }
 
+@media screen and (max-width: 620px) {
+  .footer {
+    width: 58%;
+    margin: 64px 118px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
-    max-width: 58%;
+    width: 58%;
     margin: 64px 118px 24px 16px;
     display: flex;
     flex-direction: column;

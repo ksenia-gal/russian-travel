@@ -11,15 +11,34 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 900px) {
+  .place__url-heading {
+    max-width: 380px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place__url-heading {
-    width: 352px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .place__url-heading {
+    width: 90%;
+    margin: 0 0 12px 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__url-heading {
-    width: 288px;
+    max-width: 288px;
     margin: 0 16px 12px;
   }
 }

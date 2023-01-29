@@ -6,9 +6,16 @@
   margin-top: 48px;
 }
 
+@media screen and (max-width: 620px) {
+  .place__image {
+    margin: 0;
+    max-width: 620px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__image {
     margin: 0;
-    width: 320px;
+    max-width: 320px;
   }
 }

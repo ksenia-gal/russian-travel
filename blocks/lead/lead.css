@@ -7,6 +7,14 @@
   margin-left: 148px;
   margin-right: 148px;
   padding: 0;
+  outline: 2px red solid;
+}
+
+@media screen and (max-width: 1200px) {
+  .lead {
+    max-width: 956px;
+    margin: 52px auto 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,7 +23,6 @@
     margin-top: 45px;
     margin-left: 48px;
     margin-right: 48px;
-    outline: 2px solid red;
   }
 }
 
@@ -23,7 +30,13 @@
   .lead {
     max-width: 768px;
     margin: 48px 0 0;
-    outline: 2px solid red;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    max-width: 100%;
+    margin: 48px 0 0;
   }
 }
 
@@ -31,6 +44,5 @@
   .lead {
     max-width: 100%;
     margin-top: 48px;
-    outline: 2px solid red;
   }
 }
