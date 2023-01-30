@@ -21,17 +21,9 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    max-width: 330px;
+    max-width: 340px;
     font-size: 42px;
-    line-height: 110%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__title {
-    max-width: 320px;
-    font-size: 35px;
-    line-height: 110%;
+    line-height: 46px;
   }
 }
 
