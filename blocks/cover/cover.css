@@ -52,14 +52,12 @@
 @media screen and (max-width: 620px) {
   .cover {
     min-height: 300px;
-    margin-top: 66px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     min-height: 200px;
-    margin-top: 66px;
   }
 }
 

@@ -18,21 +18,19 @@
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-    margin-top: 88px;
-    margin-left: 24px;
+    margin: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     width: 90%;
-    margin: 64px 16px 0;
+    margin: 64px auto 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
-    margin: 64px 16px 0;
   }
 }
